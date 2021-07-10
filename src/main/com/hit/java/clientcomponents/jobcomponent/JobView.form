@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="main.com.hit.java.clientcomponents.jobcomponent.JobView">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="2" left="2" bottom="2" right="2"/>
+    <constraints>
+      <xy x="20" y="20" width="414" height="287"/>
+    </constraints>
+    <properties/>
+    <border type="line"/>
+    <children>
+      <component id="ad8ff" class="javax.swing.JButton" binding="addNewJobsButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add New Jobs"/>
+        </properties>
+      </component>
+      <component id="d5e98" class="javax.swing.JButton" binding="searchEngineButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Search Engine"/>
+        </properties>
+      </component>
+      <component id="d6401" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="&lt;html&gt;&#10;To search for available jobs, press the Search Engine button.&lt;br/&gt;&#10;To add new jobs (as a recruiter), press the Add New Jobs button.&lt;br/&gt;&#10;&lt;/html&gt;"/>
+        </properties>
+      </component>
+      <component id="dda59" class="javax.swing.JLabel" binding="mainTitle">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="20" style="0"/>
+          <text value="Welcome to the new job postings application"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
