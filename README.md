@@ -1,7 +1,7 @@
 "# HITJavaProject-CLIENT" 
 
 Client side of the project. You must run MVCDriver for the gui.
-instructions:
+Instructions:
 In order to search for "jobs" -> click the "Search Engine" button. Choose by which parameter you wish to search (for example: city) and type in your request in the text field (for example: Holon). The program uses a debouncer so no need for additonal approvement of your request, the desired result should appear in the window as a table.
 If nothing appears, your request wasnt found in the database (a json file).
 
